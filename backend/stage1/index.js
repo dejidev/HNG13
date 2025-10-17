@@ -31,12 +31,10 @@ async function fetchCatFact() {
     }
 }
 
-// Default route
 app.get('/', (req, res) => {
-    res
-        .status(200)
-        .json({ message: `Check /me for the project submission endpoint.` });
+    res.status(200).json("Check '/me' for the project submission");
 });
+
 
 // Main endpoint: /me
 app.get('/me', async (req, res) => {
