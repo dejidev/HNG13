@@ -85,3 +85,76 @@ section ul {
     flex: 1;
   }
 }
+
+
+
+.page-nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.page-nav a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-nav a:hover,
+.page-nav a:focus {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+input, textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover, button:focus {
+  background: #0056b3;
+}
+
+.error {
+  color: #d9534f;
+  font-size: 0.9rem;
+}
+
+.success {
+  color: #28a745;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+

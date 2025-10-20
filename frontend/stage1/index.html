@@ -11,8 +11,9 @@
 <body>
     <article data-testid="test-profile-card" class="profile-card">
         <figure class="avatar">
-            <img src="./deji-img.jpg" alt="User avatar" data-testid="test-user-avatar" />
+            <img src="./asset/deji-img.jpg" alt="User avatar" data-testid="test-user-avatar" />
         </figure>
+
 
         <section class="profile-info">
             <header>
@@ -51,6 +52,12 @@
                 </ul>
             </nav>
 
+            <!-- inside .profile-info, after social links -->
+            <nav class="page-nav">
+                <a href="contact.html" data-testid="test-nav-contact">Contact Us</a>
+                <a href="about.html" data-testid="test-nav-about">About Me</a>
+            </nav>
+
             <section>
                 <h3>Hobbies</h3>
                 <ul data-testid="test-user-hobbies">
@@ -71,7 +78,7 @@
         </section>
     </article>
 
-    <script src="script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
